@@ -1,9 +1,11 @@
 # jsp_14 : 변수의 범위
 
 ![image](https://user-images.githubusercontent.com/37132897/158129208-418cd373-5a32-4fcc-802c-1e6254e34b71.png)
-
+- i는 10으로, 5보다 크기 때문에, j값이 100으로 출력된다. 여기서 var 대신, let 이나 const 로 사용 불가하다. 만약 사용하려면,
 
       var i = 10;
+      
+      // let j = 150; 처럼 출력문과 같은 블록에서, 선언해서 불러와야 한다. if문 안과 출력문은 다른 블록.
       
       if (i > 5) {
       
