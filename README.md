@@ -1,5 +1,8 @@
 # jsp_14 : 변수의 범위
 
+![image](https://user-images.githubusercontent.com/37132897/158129208-418cd373-5a32-4fcc-802c-1e6254e34b71.png)
+
+
       var i = 10;
       
       if (i > 5) {
